@@ -10,6 +10,7 @@ export default function Home() {
                     href='/gadgets/bmi'
                     src='/bmi.jpeg'
                     alt='BMI Calculator'
+                    date='2023-11-10'
                 />
                 <DisplayCard 
                     title='Distance Matrix Generator'
@@ -17,6 +18,7 @@ export default function Home() {
                     href='/gadgets/distanceMatrix'
                     src='/distanceMatrix.jpeg'
                     alt='Distance Matrix Generator'
+                    date='2023-11-13'
                 />
                 <DisplayCard 
                     title='Location Finder'
@@ -24,6 +26,7 @@ export default function Home() {
                     href='/gadgets/findLocation'
                     src='/locationFinder.jpeg'
                     alt='Location Finder'
+                    date='2023-11-14'
                 />
                 <DisplayCard />
                 <DisplayCard />

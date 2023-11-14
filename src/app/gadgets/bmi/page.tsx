@@ -1,6 +1,7 @@
 'use client'
 import { useState, useEffect } from 'react'
 import { Input } from '@/components/input'
+import { MessageButton } from '@/components/button'
 import { DescriptionBlock, InputBlock } from '@/components/block'
 
 const HEALTHY_BMI_LOWER = 18.5;
@@ -56,6 +57,9 @@ export default function BMICalculator() {
 
     return (
         <section className='px-4 md:px-8 lg:px-16 xl:px-32 space-y-10'>
+            <MessageButton 
+                message="單純只是當初第一個想到 BMI 的計算，剛好網路上也有人實作，就先學著來做。"
+            />
             <DescriptionBlock>
                 <h2 className="text-2xl font-bold mb-4">Welcome to our BMI Calculator</h2>
                 <p className="text-gray-700 leading-relaxed">
