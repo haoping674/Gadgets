@@ -18,7 +18,13 @@ export default function Home() {
                     src='/distanceMatrix.jpeg'
                     alt='Distance Matrix Generator'
                 />
-                <DisplayCard />
+                <DisplayCard 
+                    title='Location Finder'
+                    description='This location finder is a tool that helps you find your current location.'
+                    href='/gadgets/findLocation'
+                    src='/locationFinder.jpeg'
+                    alt='Location Finder'
+                />
                 <DisplayCard />
                 <DisplayCard />
                 <DisplayCard />
