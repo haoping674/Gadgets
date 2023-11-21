@@ -22,13 +22,20 @@ export default function Home() {
                 />
                 <DisplayCard 
                     title='Location Finder'
-                    description='This location finder is a tool that helps you find your current location.'
+                    description='This location finder is a tool that helps you find your current latitude and longitude.'
                     href='/gadgets/findLocation'
                     src='/locationFinder.jpeg'
                     alt='Location Finder'
                     date='2023-11-14'
                 />
-                <DisplayCard />
+                <DisplayCard 
+                    title='Taiwan Weather'
+                    description='This Taiwan weather is a tool that helps you find the weather in Taiwan.'
+                    href='/gadgets/weather'
+                    src='/taiwanWeather.jpeg'
+                    alt='Taiwan Weather'
+                    date='2023-11-21'
+                />
                 <DisplayCard />
                 <DisplayCard />
                 <DisplayCard />

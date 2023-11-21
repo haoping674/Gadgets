@@ -43,7 +43,7 @@ export default function DistanceMatrixGenerator() {
             <MessageButton 
                 message='因為 Christina 某項作業範例給的距離矩陣很簡單，然後只使用範例給的矩陣做 report 時，分數比較低，所以設計了一個可以產生距離矩陣的小工具'
             />
-            <h2 className="text-2xl font-bold mb-4">Distance Matrix Generator</h2>
+            <h2 className="text-2xl font-bold mb-4 text-center">Distance Matrix Generator</h2>
             <InputBlock >
                 <Input label="Number of n*n Matrix" type="number" name="cols" placeholder="n" value={num} onChange={handleChangeNum} />
             </InputBlock>

@@ -36,7 +36,7 @@ export default function LocationFinder() {
                 text='Find Location'
                 onClick={handleLocationClick}
             />
-            {isFound && (
+            {isFound ? (
                 <DescriptionBlock>
                     <h2 className="text-2xl font-bold mb-4">Your Location</h2>
                     <p className="text-gray-700 leading-relaxed">
@@ -51,6 +51,8 @@ export default function LocationFinder() {
                         onClick={() => handleCopyClick(location.latitude, location.longitude)}
                     />
                 </DescriptionBlock>
+            ) : (
+                <p>Location not found.</p>
             )}
         </section>
     );
